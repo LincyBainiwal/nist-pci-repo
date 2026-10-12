@@ -1,0 +1,30 @@
+# Provider binaries and plugin cache (768 MB here, re-created by `terraform init`)
+.terraform/
+
+# State and plans can contain sensitive values
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+plan.json
+crash.log
+crash.*.log
+
+# Variable files can contain secrets
+*.tfvars
+*.tfvars.json
+
+# Local CLI overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Environment / credentials
+.env
+.env.*
+
+# macOS
+.DS_Store
